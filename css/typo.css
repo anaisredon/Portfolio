@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Questrial|Spinnaker&display=swap');
+
+h1{
+  font-family: 'Spinnaker', serif;
+  letter-spacing: 4px;
+  font-size: 1.3em;
+    color: #95785e;
+}
+
+p {
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.menu {
+  font-family: 'Libre Baskerville', serif;
+  letter-spacing: 2px;
+  font-size: 10px;
+}
+
+#aboutme p {
+    line-height: 25px;
+    font-size: 10px;
+}
+
+
+#contacts p {
+  font-size: 12px;
+}
+
+h2{
+  font-family: 'Spinnaker', serif;
+  letter-spacing: 4px;
+  font-size: 12px;
+    color: #95785e;
+}

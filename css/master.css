@@ -1,0 +1,287 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figure.fond{`
+  position: relative;
+  z-index: -1;
+  width: 60%;
+  padding: 10px 0 40px 0;
+}
+
+figure.logo{
+  width: 20%;
+  position: absolute;
+}
+
+figure.logo img{
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+figure.logo img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+main {
+  text-align: center;
+  padding: 0 0 40px 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.hrfooter {
+  width: 50%;
+}
+
+.social {
+  width: 15%;
+  margin: 20px;
+}
+
+.icone_container {
+  padding : 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icone_container figure {
+  text-align: center;
+}
+
+#main-menu {
+  background: #fff;
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  left: -200px;
+  transition: 0.5s ease all;
+  z-index: 999;
+}
+
+
+#main-menu:target {
+  left : 0;
+}
+
+nav a {
+  display: block;
+  padding: 2em;
+  text-decoration: none;
+  color : #95785e;
+}
+
+a:hover {
+  color: #3a2616;
+}
+
+.menu-toggle {
+  border-radius: 6px;
+  padding: 0.8em;
+  position: absolute;
+  top:0;
+  text-decoration: none;
+  font-size: 30px;
+  color: #95785e;
+}
+
+.menu-toggle svg {
+  width: 20px;
+}
+
+.menu-toggle svg:hover {
+  color: #3a2616;
+}
+
+#projects h1 {
+  padding: 1em 0.5em 0.5em 0.5em;
+}
+
+header h1 {
+  text-align: center;
+}
+
+#main-menu:target + .backdrop {
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+}
+
+@media (min-width : 1000px) {
+  #main-menu {
+    position: relative;
+    left:auto;
+    top: auto;
+    width: 100%;
+
+  }
+  #main-menu ul {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .menu-toggle, .menu-close {
+    display: none;
+  }
+}
+
+img.logo {
+  width:70px;
+}
+
+.categories {
+  font-size: 15px;
+  margin: 40px;
+}
+
+.project-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding : 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.photos-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding : 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.portfolio-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding : 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.illustration{
+  padding: 1em;
+  margin-bottom: 3em;
+  flex-basis : 320px;
+  height: 320px;
+  flex-grow: 0;
+}
+
+.illustration img {
+  object-fit: cover;
+  height: 320px;
+  width: 100%;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.portfolio img {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.illustration figure {
+  height: 320px;
+  background: #000;
+}
+
+
+.illustration img:hover {
+  opacity: .5;
+}
+
+.photo {
+  padding: 1em;
+  margin-bottom: 3em;
+  flex-basis : 500px;
+  flex-grow: 0;
+}
+
+.portfolio {
+  padding: 1em;
+  margin-bottom: 3em;
+  flex-basis : 300px;
+  flex-grow: 0;
+}
+
+#aboutme img {
+  width: 200px;
+  padding: 50px;
+}
+
+#aboutme main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#aboutme p {
+  text-align: justify;
+  max-width: 600px;
+}
+
+#contacts p {
+  margin: 30px 20px 20px 20px;
+}
+
+#contacts h1 {
+  margin: 20px 20px 10px 20px;
+}
+
+#contacts hr {
+  max-width: 20px;
+}
+
+.photo img {
+  object-fit: cover;
+  height: 600px;
+  width: 100%;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+
+.photo figure {
+  height: 600px;
+  background: #000;
+}
+
+
+.photo img:hover {
+  opacity: .5;
+}
+
+#photominimale h1 {
+  padding: 30px 30px 30px 160px;
+}
+
+#photobassin h1 {
+  padding: 30px 30px 30px 160px;
+}
+
+img.logo2 {
+  width: 70px;
+  padding: 30px 0px 30px 150px;
+}
