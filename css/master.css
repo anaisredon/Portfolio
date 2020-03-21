@@ -285,3 +285,40 @@ img.logo2 {
   width: 70px;
   padding: 30px 0px 30px 150px;
 }
+
+.pageprojet h1{
+  padding: 30px 0px 30px 150px;
+}
+
+.imagepage img{
+  max-height: 400px;
+  padding: 0px 30px 0px 0px;
+}
+
+.project-container2 {
+  max-width: 1280px;
+  padding : 30px 0px 50px 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: few-start;
+}
+
+#elena-projet img{
+  max-height: 600px;
+}
+
+.pageprojet h2 {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.explicationprojet {
+padding: 10px 0px 50px 0px;
+max-width: 600px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
