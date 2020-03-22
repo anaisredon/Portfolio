@@ -249,8 +249,8 @@ img.logo {
   margin: 20px 20px 10px 20px;
 }
 
-#contacts hr {
-  max-width: 20px;
+#contacts h2 {
+  margin-bottom: 30px
 }
 
 .photo img {
@@ -286,35 +286,33 @@ img.logo2 {
   padding: 30px 0px 30px 150px;
 }
 
-.pageprojet h1{
-  padding: 30px 0px 30px 150px;
+.project-complet {
+  padding: 30px 150px 50px 150px;
 }
 
-.imagepage img{
-  max-height: 400px;
-  padding: 0px 30px 0px 0px;
-}
-
-.project-container2 {
+.projects-container2 {
   max-width: 1280px;
-  padding : 30px 0px 50px 150px;
+  margin: 0 auto;
   display: flex;
+  flex-basis: auto;
   flex-wrap: wrap;
-  justify-content: few-start;
+  justify-content: space-around;
+
 }
 
-#elena-projet img{
-  max-height: 600px;
+.image-project img{
+  max-height: 350px;
+  padding: 20px 20px 20px 0px;
 }
 
-.pageprojet h2 {
+.explication h2 {
   margin-top: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.explicationprojet {
+.explication p {
 padding: 10px 0px 50px 0px;
 max-width: 600px;
 text-align: center;
