@@ -291,17 +291,56 @@ img.logo2 {
 }
 
 .projects-container2 {
+  padding-top: 0.5em;
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
   flex-basis: auto;
   flex-wrap: wrap;
   justify-content: space-around;
+}
 
+.image350  {
+  margin-bottom: 3em;
+  flex-basis: 350px;
+  height: 350px;
+  flex-grow: 0;
+}
+
+.image350 img {
+  object-fit: cover;
+  height: 350px;
+  width: 100%;
+}
+
+.image520  {
+  margin-bottom: 3em;
+  flex-basis: 520px;
+  height: 520px;
+  flex-grow: 0;
+}
+
+.image520 img {
+  object-fit: cover;
+  height: 520px;
+  width: 100%;
+}
+
+.image1125  {
+  margin-bottom: 3em;
+  flex-basis: 1125px;
+  width: 1125px;
+  flex-grow: 0;
+}
+
+.image1125 img {
+  object-fit: cover;
+  width: 1125px;
+  height: 100%;
 }
 
 .image-project img{
-  max-height: 350px;
+  max-height: 500px;
   padding: 20px 20px 20px 0px;
 }
 

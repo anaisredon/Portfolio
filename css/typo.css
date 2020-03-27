@@ -31,8 +31,9 @@ p {
 
 h2{
   font-family: 'Spinnaker', serif;
-  letter-spacing: 4px;
-  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 150%;
+  font-size: 14px;
     color: #95785e;
 }
 
