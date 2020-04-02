@@ -336,7 +336,7 @@ img.logo2 {
   grid-row-end: 8;
 }
 
-#elsa {
+#leana {
   grid-column-start: 1;
   grid-column-end: 8;
   grid-row-start: 4;
@@ -350,20 +350,47 @@ img.logo2 {
   grid-row-end: 12;
 }
 
-#albumface {
+#albumface , #affiche {
   grid-column-start: 2;
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 7;
 }
 
-#albumdos {
+#albumdos, #flyer {
   grid-column-start: 7;
   grid-column-end: 12;
   grid-row-start: 1;
   grid-row-end: 7;
 }
 
+#elsa {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 12;
+  grid-row-end: 15;
+}
+
+#cleo1 {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end : 2;
+}
+
+#cleo2 {
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#texte_cleo {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
 
 .projects-container2 {
   padding-top: 0.5em;
@@ -380,18 +407,45 @@ img.logo2 {
   padding: 20px 20px 20px 0px;
 }
 
-.explication h2 {
+.explication h2 , #texte_cleo h2 {
   margin-top: 30px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-.explication p {
+.explication p , #texte_cleo p {
 padding: 10px 0px 50px 0px;
 max-width: 600px;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
+}
 
+#collectiontablette {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#menu {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+#carte {
+  grid-column-start: 7;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+#tablette {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
