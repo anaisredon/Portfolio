@@ -7,7 +7,7 @@
 figure.fond{`
   position: relative;
   z-index: -1;
-  width: 60%;
+  width: 60%;;
   padding: 10px 0 40px 0;
 }
 
@@ -308,42 +308,42 @@ img.logo2 {
   display: block;
 }
 
-#charlie {
+#charlie , #box {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 4;
 }
 
-#marie {
+#marie , #carafe {
   grid-column-start: 4;
   grid-column-end: 8;
   grid-row-start: 1;
   grid-row-end: 4;
 }
 
-#rosie {
+#rosie , #carteuki {
   grid-column-start: 6;
   grid-column-end: 13;
   grid-row-start: 8;
   grid-row-end: 12;
 }
 
-#mia {
+#mia , #verre {
   grid-column-start: 8;
   grid-column-end: 13;
   grid-row-start: 1;
   grid-row-end: 8;
 }
 
-#leana {
+#leana , #carton {
   grid-column-start: 1;
   grid-column-end: 8;
   grid-row-start: 4;
   grid-row-end: 8;
 }
 
-#elena {
+#elena, #emballage {
   grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 8;
@@ -420,13 +420,6 @@ max-width: 600px;
 text-align: center;
 margin-left: auto;
 margin-right: auto;
-}
-
-#collectiontablette {
-  grid-column-start: 1;
-  grid-column-end: 8;
-  grid-row-start: 1;
-  grid-row-end: 3;
 }
 
 #menu {
