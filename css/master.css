@@ -329,7 +329,7 @@ img.logo2 {
   grid-row-end: 12;
 }
 
-#mia , #verre {
+#noah , #verre {
   grid-column-start: 8;
   grid-column-end: 13;
   grid-row-start: 1;
@@ -366,9 +366,16 @@ img.logo2 {
 
 #elsa {
   grid-column-start: 1;
-  grid-column-end: 8;
+  grid-column-end: 9;
   grid-row-start: 12;
-  grid-row-end: 15;
+  grid-row-end: 13;
+}
+
+#mia {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 12;
+  grid-row-end: 13;
 }
 
 #cleo1 {
@@ -441,4 +448,47 @@ margin-right: auto;
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 3;
+}
+
+#video {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+#cartepola {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+#depliantdospola {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#drapeau {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#depliantfacepola {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#app {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
