@@ -39,20 +39,20 @@ h1 {
   width: 50%;
 }
 
-.social {
-  width: 15%;
-  margin: 20px;
-}
 
 .icone_container {
   padding : 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  object-fit: contain;
 }
 
 .icone_container figure {
   text-align: center;
+  width: 2.5%;
+  min-width: 25px;
+  margin: 50px;
 }
 
 #main-menu {
